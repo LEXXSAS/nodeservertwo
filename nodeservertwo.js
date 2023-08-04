@@ -3,7 +3,7 @@ const app = express()
 
 const data = 'Hello user two!'
 
-app.get('/data', (req, res) => {
+app.get('/', (req, res) => {
     res.send(JSON.stringify(data))
 });
 

@@ -7,6 +7,6 @@ app.get('/data', (req, res) => {
     res.send(JSON.stringify(data))
 });
 
-app.listen(8089, () => {
+app.listen(8090, () => {
     console.log('Server started!')
 });
